@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<h1>Ey, Que pasión!</h1>
+
+Bienvenido
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+
+<div>
+    @texto
+</div>
+
+
+<textarea @bind="texto" @bind:event="oninput"> </textarea>
+
+@code 
+{
+    private string texto ="";
+}
