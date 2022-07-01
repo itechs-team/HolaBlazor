@@ -33,7 +33,6 @@ else
         </tbody>
     </table>
 }
-
 @code {
     private WeatherForecast[] forecasts;
 
@@ -41,7 +40,6 @@ else
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
-
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
