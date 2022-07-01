@@ -93,6 +93,7 @@ using HolaBlazor.Shared;
 #nullable restore
 #line 9 "C:\Users\Recovery\source\repos\HolaBlazor\HolaBlazor\Pages\Counter.razor"
        
+
     private int currentCount = 0;
 
     private void IncrementCount()

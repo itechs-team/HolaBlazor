@@ -91,13 +91,9 @@ using HolaBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\Users\Recovery\source\repos\HolaBlazor\HolaBlazor\Pages\Index.razor"
+#line 15 "C:\Users\Recovery\source\repos\HolaBlazor\HolaBlazor\Pages\Index.razor"
  
-
-
     private string texto ="";
-
-
 
 #line default
 #line hidden

@@ -91,7 +91,7 @@ using HolaBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "C:\Users\Recovery\source\repos\HolaBlazor\HolaBlazor\Pages\FetchData.razor"
+#line 36 "C:\Users\Recovery\source\repos\HolaBlazor\HolaBlazor\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 
@@ -99,7 +99,6 @@ using HolaBlazor.Shared;
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
-
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
